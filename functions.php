@@ -29,6 +29,6 @@ function activate_stellar(){
 }
 add_action("wp_footer", 'activate_stellar');
 
-
+add_theme_support( 'post-thumbnails' ); 
 
 ?>

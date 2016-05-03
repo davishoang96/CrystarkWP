@@ -6,11 +6,11 @@ Version: 1.0
 */
 
 
+
 #coverpage{
   margin: auto;
   padding: 350px;
   background-image: url(img/cover.jpg);
-  background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 

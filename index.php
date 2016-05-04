@@ -9,7 +9,7 @@ get_header();
       <div class="col-lg-12">
         <div class="row">
           <div class="text-center">
-            <h1><?php the_title(); ?></h1>
+            <h1> Howdy everyone! this is my <?php  bloginfo('name'); ?></h1>
             <p>
               Sign up and Join us
             </p>
@@ -28,7 +28,7 @@ if(have_posts()){
     the_post();
     ?>
       <div class="col-md-12">
-        
+
         <div class="container">
 
           <div class="row">
@@ -36,6 +36,9 @@ if(have_posts()){
             <h1><a href="<?php the_permalink();?>"><?php the_title(); ?></a></h1>
             <p>
               <?php the_content(); ?>
+            </p>
+            <p class="post-info">
+              <?php the_time('F j, Y g:i a'); ?> | by <a href="<?php echo get_author_posts_url(get_the_author_meta('ID')); ?>"><?php the_author(); ?></a>
             </p>
             <hr>
           </div>

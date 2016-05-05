@@ -23,31 +23,32 @@ get_header();
 
     <?php
 
-if(have_posts()){
-  while(have_posts()){
-    the_post();
+    if(have_posts()) :
+      while (have_posts()) :
+        the_post();
+        ?>
+          <section class="the-loop">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-2">
+                  <?php the_post_thumbnail('thumbnail') ?>
+                </div>
+                <div class="col-md-8">
+
+                  <h1><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
+                  <p>
+                    <?php the_excerpt(); ?>
+                  </p>
+                  <p><?php the_time(); ?> | by <?php the_author(); ?></p>
+                </div>
+              </div>
+            </div>
+          </section>
+        <?php
+      endwhile;
+    else:
+
+    endif;
     ?>
-      <div class="col-md-12">
-
-        <div class="container">
-
-          <div class="row">
-
-            <h1><a href="<?php the_permalink();?>"><?php the_title(); ?></a></h1>
-            <p>
-              <?php the_content(); ?>
-            </p>
-            <p class="post-info">
-              <?php the_time('F j, Y g:i a'); ?> | by <a href="<?php echo get_author_posts_url(get_the_author_meta('ID')); ?>"><?php the_author(); ?></a>
-            </p>
-            <hr>
-          </div>
-        </div>
-      </div>
-    <?php
-  }
-}
-
-
 get_footer();
 ?>

@@ -19,14 +19,15 @@ html, body{
   background-image: url(img/cover.jpg);
   background-size: cover;
   background-attachment: fixed;
-
   width: 100%;
-
 }
+
 
 #coverpage h1, #coverpage p{
   color: rgba(255, 255, 255, 0.8);
 }
+
+
 
 .the-loop{
   padding-top: 10px;

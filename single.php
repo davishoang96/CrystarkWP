@@ -1,6 +1,12 @@
 <?php
   get_header();
 
+  ?>
+  <div id='cssmenu'>
+    <?php wp_nav_menu(); ?>
+  </div>
+  <?php
+
   if(have_posts() ) :
 
     the_post();

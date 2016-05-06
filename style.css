@@ -5,7 +5,13 @@ Author URI: www.facebook.com/vfxdirector
 Version: 1.0
 */
 
+html, body{
+  height: 100%;
+}
 
+.the-post h4{
+  text-align: center;
+}
 
 #coverpage{
   margin: auto;
@@ -29,14 +35,6 @@ Version: 1.0
   margin: 10px;
 }
 
-.the-footer{
-    position: absolute;
-   bottom:0;
-   width:100%;
-   height:60px;   /* Height of the footer */
-   background: rgb(64, 64, 64);
-   color: white
-}
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
 #cssmenu {

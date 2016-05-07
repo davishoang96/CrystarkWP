@@ -9,9 +9,6 @@ html, body{
   height: 100%;
 }
 
-.the-post h4{
-  text-align: center;
-}
 
 #coverpage{
   margin: auto;
@@ -28,13 +25,29 @@ html, body{
 }
 
 
+div.thumbnail{
+  float: left;
+  clear: right;
+  margin-right: 100px;
 
-.the-loop{
-  padding-top: 10px;
-  background-color: rgb(77, 202, 241);
-  border: 1px solid black;
-  margin: 10px;
 }
+div.posts{
+  clear: right;
+  padding-top: 0;
+  position: static;
+}
+#conter{
+  margin: 50px;
+}
+a.view-more{
+  border: 1px solid black;
+  color: white;
+  font-weight: bold;
+  background-color: rgb(60, 60, 60);
+  border-spacing: 50px;
+}
+
+
 
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:700);

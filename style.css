@@ -46,6 +46,29 @@ a.view-more{
   background-color: rgb(60, 60, 60);
   border-spacing: 50px;
 }
+.background-news{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 50%;
+  padding-top: 10px;
+  position: relative;
+
+
+}
+.title-news{
+  color: rgba(255, 255, 255, 0.53);
+  position: absolute;
+   top: calc(50% - 24px); //24px is font size of H1 I assume
+   left: 0;
+   text-align: center;
+   width: 100%;
+}
+.container.news-posts{
+  width: 85%;
+
+}
 
 
 

@@ -1,26 +1,36 @@
-<?php
+<?php get_header(); ?>
+<div id="cssmenu">
+	<?php wp_nav_menu() ?>
+</div>
+<div class="jumbotron">
 
-get_header(); ?>
-		<div id="cssmenu">
-			<?php wp_nav_menu(); ?>
+</div>
+<div class="container">
+	<div class="col-md-12">
+		<div id="wrapper">
+			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+
+		 <div class="box">
+			<a href="<?php the_permalink() ?>" rel="bookmark">
+
+			<?php if (has_post_thumbnail()) {
+				the_post_thumbnail('medium');
+			}?>
+			<h2><?php the_title(); ?></h2></a>
+			<label for=""><?php the_time() ?> | by <?php the_author() ?></label>
+			</div>
+
+		<?php endwhile; endif; ?>
 		</div>
-		<div class="jumbotron" data-stellar-background-ratio="0.5">
+	</div>
+</div>
 
-				<div class="center-title" >
-					<h1>Welcome to my <?php bloginfo('name'); ?></h1>
-					<p>
-						Sign Up and Join Us
-					</p>
-					<a href="#" class="btn btn-default"></a>
-				</div>
+<script>
+	jQuery(document).ready(function($){
+    	$('#wrapper').masonry({
+      	  itemSelector: '.box',
+    	  });
+  	});
+</script>
 
-		</div>
-		<div class="container">
-			<?php if ( have_posts() ) : ?>
-			<?php /* The loop */ ?>
-			<?php while ( have_posts() ) : the_post(); ?>
-				<?php get_template_part( 'content', get_post_format() ); ?>
-			<?php endwhile; ?>
-		<?php endif; ?>
-		</div><!-- /content -->
 <?php get_footer(); ?>

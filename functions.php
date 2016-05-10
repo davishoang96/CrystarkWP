@@ -28,7 +28,13 @@ function activate_stellar(){
   wp_enqueue_script('activateStellar_js', get_template_directory_uri() . "/js/activate_stellar.js", array('jquery'), '', true);
 }
 add_action("wp_footer", 'activate_stellar');
+add_theme_support( 'post-thumbnails' );
 
-add_theme_support( 'post-thumbnails' ); 
+function my_masonry(){
+	wp_enqueue_script('masonry');
+}
+add_action('wp_enqueue_scripts', 'my_masonry');
+
+
 
 ?>

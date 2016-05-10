@@ -4,6 +4,25 @@ Author: Crystark
 Author URI: www.facebook.com/vfxdirector
 Version: 1.0
 */
+/* Makes two columns */
+#wrapper{
+  margin: 10px;
+
+}
+.box {
+	float:left;
+	width: 350px;
+	padding:5px;
+	margin:0 10px 10px 0;
+	background:#f1f1f1;
+}
+
+.box h2 {
+	font-size:14px;
+	line-height:18px;
+	margin-bottom:5px;
+}
+
 
 
 div.thumbnail{

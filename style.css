@@ -14,19 +14,10 @@ div.thumbnail{
 }
 div.posts{
   clear: right;
-  padding-top: 0
-  position: static;
+  position: relative;
 }
-#conter{
-  margin: 50px;
-}
-a.view-more{
-  border: 1px solid black;
-  color: white;
-  font-weight: bold;
-  background-color: rgb(60, 60, 60);
-  border-spacing: 50px;
-}
+
+
 .background-news{
   background-position: center;
   background-repeat: no-repeat;
@@ -37,26 +28,22 @@ a.view-more{
   position: relative;
 
 }
+
+/* Center Title */
 .title-news{
   color: rgba(255, 255, 255, 0.53);
   position: absolute;
-   top: calc(50% - 24px); //24px is font size of H1 I assume
-   left: 0;
-   text-align: center;
-   width: 100%;
+  top: calc(50% - 24px); //24px is font size of H1 I assume
+  left: 0;
+  text-align: center;
+  width: 100%;
 }
 .container.news-posts{
   width: 85%;
   min-height: 100%;
   margin-bottom: -120px;
 }
-.footer, .container.news-posts:after{
-  height: 120px;
-}
-.footer{
-  background-color: rgb(199, 62, 44);
-  color: white;
-}
+
 
 *{
   margin: 0;

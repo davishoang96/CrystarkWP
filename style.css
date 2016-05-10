@@ -17,6 +17,25 @@ div.posts{
   position: relative;
 }
 
+/*Custom Image on jumbotron*/
+.jumbotron{
+  background-image: url(img/cover1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 80%;
+
+  position: relative;
+}
+
+/*Make text center of background*/
+.center-title{
+  color: rgba(255, 255, 255, 0.53);
+  position: absolute;
+  top: calc(40% - 24px); //24px is font size of H1 I assume
+  left: 0;
+  text-align: center;
+  width: 100%;
+}
 
 .background-news{
   background-position: center;
@@ -26,7 +45,6 @@ div.posts{
   height: 50%;
   padding-top: 10px;
   position: relative;
-
 }
 
 /* Center Title */

@@ -1,8 +1,5 @@
 <?php
-/**
- * The main template file.
- * @package metro-creativex
- */
+
 get_header(); ?>
 		<div id="cssmenu">
 			<?php wp_nav_menu(); ?>
@@ -14,6 +11,7 @@ get_header(); ?>
 					<p>
 						Sign Up and Join Us
 					</p>
+					<a href="#" class="btn btn-default"></a>
 				</div>
 
 		</div>

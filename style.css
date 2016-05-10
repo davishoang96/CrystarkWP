@@ -4,26 +4,26 @@ Author: Crystark
 Author URI: www.facebook.com/vfxdirector
 Version: 1.0
 */
-/* Makes two columns */
+
 #wrapper{
-	padding: inherit;
-	width: 100%;
 	margin: auto;
-  position: absolute;
-  top: 0; left: 0; bottom: 0; right: 0;
-	display: inline-block;
+
 }
 
 .box {
 	max-width: 350px;
-  max-height: 400px;
-	padding: inherit;;
+  height: 400px;
+
 	border-radius: 5px;
 	margin:0 10px 10px 0;
 	background:#f1f1f1;
   overflow: scroll;
 	text-overflow: ellipsis;
 
+}
+
+.box .shit{
+	padding: 5px;
 }
 
 .box h2 {
@@ -51,7 +51,7 @@ div.posts{
 
 /*Custom Image on jumbotron*/
 .jumbotron{
-  background-image: url(img/cover3.jpg);
+  background-image: url(img/cover4.jpg);
   background-size: cover;
   background-attachment: fixed;
 	background-position:center;

@@ -25,12 +25,16 @@
 								</div>
 								<?php
 							}?>
-							<h2><?php the_title(); ?></h2></a>
-							<label for=""><?php the_time() ?> | by <?php the_author() ?></label>
-
-							<p>
-								<?php the_excerpt(); ?>
-							</p>
+							<div class="shit">
+								<h2><?php the_title(); ?></h2></a>
+								<label for=""><?php the_time() ?> | by <?php the_author() ?></label>
+								<p>
+									<?php
+									$content = get_the_content();
+									echo wp_trim_words( $content , '50' );
+									?>
+								</p>
+							</div>
 							</div>
 
 						<?php endwhile; endif; ?>
@@ -43,8 +47,12 @@
 <script>
 	jQuery(document).ready(function($){
     	$('#wrapper').masonry({
-      	  itemSelector: '.box'
-
+      	  itemSelector: '.box',
+					gutterWidth: 0,
+					isAnimated: false,
+  			  isFitWidth: true, // I have spend 5 hours for this shit
+					isRTL: true,
+ 					isResizable: true,
 
     	  });
   	});

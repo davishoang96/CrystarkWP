@@ -24,16 +24,18 @@ function stellar_parallax(){
 }
 add_action('wp_enqueue_scripts', 'stellar_parallax');
 
+function masonry(){
+  wp_register_script('jquery_masonry', get_template_directory_uri(). '/js/masonry.pkgd.min.js', array('jquery'), '2.0.110526', true );
+}
+add_action('wp_enqueue_scripts', 'masonry');
+
 function activate_stellar(){
   wp_enqueue_script('activateStellar_js', get_template_directory_uri() . "/js/activate_stellar.js", array('jquery'), '', true);
 }
 add_action("wp_footer", 'activate_stellar');
 add_theme_support( 'post-thumbnails' );
 
-function my_masonry(){
-	wp_enqueue_script('masonry');
-}
-add_action('wp_enqueue_scripts', 'my_masonry');
+
 
 
 

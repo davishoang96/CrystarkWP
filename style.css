@@ -6,21 +6,34 @@ Version: 1.0
 */
 /* Makes two columns */
 #wrapper{
-  margin: 10px;
-
+	padding: inherit;
+	width: 100%;
+	margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+	display: inline-block;
 }
+
 .box {
-	float:left;
-	width: 350px;
-	padding:5px;
+	max-width: 350px;
+  max-height: 400px;
+	padding: inherit;;
+	border-radius: 5px;
 	margin:0 10px 10px 0;
 	background:#f1f1f1;
+  overflow: scroll;
+	text-overflow: ellipsis;
+
 }
 
 .box h2 {
-	font-size:14px;
+	font-size:18px;
 	line-height:18px;
 	margin-bottom:5px;
+}
+
+.feat{
+  width: 100%;
 }
 
 
@@ -38,19 +51,21 @@ div.posts{
 
 /*Custom Image on jumbotron*/
 .jumbotron{
-  background-image: url(img/cover1.jpg);
+  background-image: url(img/cover3.jpg);
   background-size: cover;
   background-attachment: fixed;
-  height: 80%;
+	background-position:center;
+  min-height: 100%;
+	width: auto;
+	background-repeat: no-repeat;
 
-  position: relative;
 }
 
 /*Make text center of background*/
 .center-title{
   color: rgba(255, 255, 255, 0.53);
   position: absolute;
-  top: calc(40% - 24px); //24px is font size of H1 I assume
+  top: calc(46% - 24px); //24px is font size of H1 I assume
   left: 0;
   text-align: center;
   width: 100%;

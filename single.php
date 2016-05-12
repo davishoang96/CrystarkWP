@@ -14,16 +14,28 @@ get_header();
   <!--  -->
 
   <!-- The content post -->
-    <div class="wrapper-content-post">
-      <div class="content-post">
-        <h4><?php the_title() ?></h4>
-        <p>
-          <?php the_content() ?>
-        </p>
-        <hr>
-        <label><?php the_time() ?> | by <?php the_author(); ?></label>
+    <div class="container">
+      <div class="col-md-8">
+
+        <div class="letter">
+          <div class="content-post">
+            <h4><?php the_title() ?></h4>
+            <p>
+              <?php the_content() ?>
+            </p>
+            <hr>
+            <label><?php the_time() ?> | by <?php the_author(); ?></label>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-md-4">
+        <div class="letter">
+            <h4>Place some widgets here</h4>
+        </div>
       </div>
     </div>
+
   <!--  -->
 
   <?php

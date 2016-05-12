@@ -89,16 +89,40 @@ Version: 1.0
 	width: 100%;
 }
 
-div.wrapper-content-post{
-	margin: 20px 20px 20px 20px;
-	min-height: 100%;
-	margin-bottom: -120px;
-	border: 1px solid black;
-	border-radius: 5px;
+
+/*Paper Background Effect*/
+.letter {
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  margin: 26px auto 0;
+  max-width: 100%;
+  min-height: 100%;
+  padding: 24px;
+  position: relative;
+  width: 80%;
 }
-div.content-post{
-	padding: 10px;
+.letter:before, .letter:after {
+  content: "";
+  height: 98%;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
 }
+.letter:before {
+  background: #fafafa;
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+  left: -5px;
+  top: 4px;
+  transform: rotate(-2.5deg);
+}
+.letter:after {
+  background: #f6f6f6;
+  box-shadow: 0 0 3px rgba(0,0,0,0.2);
+  right: -3px;
+  top: 1px;
+  transform: rotate(1.4deg);
+}
+/*Paper Background Effect*/
 
 div.wrapper-about{
 	margin-bottom: -120px;

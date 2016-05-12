@@ -2,7 +2,7 @@
 
 <div class="jumbotron" data-stellar-background-ratio="0.5">
 	<div class="center-title">
-		<h1>Masonry Grid In Action</h1>
+		<h1>RESEARCH 2.3</h1>
 	</div>
 </div>
 <div class="container-fluid">
@@ -16,7 +16,7 @@
 
 	</div>
 
-	<script>
+	<!-- <script>
 	jQuery(document).ready(function($){
 		$('#wrapper').masonry({
 			itemSelector: '.box',
@@ -28,6 +28,6 @@
 			resize: true
 		});
 	});
-	</script>
+	</script> -->
 
 	<?php get_footer(); ?>

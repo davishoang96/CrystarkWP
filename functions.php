@@ -35,6 +35,10 @@ function activate_stellar(){
 add_action("wp_footer", 'activate_stellar');
 add_theme_support( 'post-thumbnails' );
 
+function my_masonry_script(){
+  wp_enqueue_script('my_masonry_script', get_template_directory_uri(). '/js/my_masonry.js', array('jquery'), '', true);
+}
+add_action('wp_footer', "my_masonry_script");
 
 
 

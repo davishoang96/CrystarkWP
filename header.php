@@ -6,4 +6,8 @@
     <title><?php bloginfo('name'); ?></title>
     <?php wp_head(); ?>
   </head>
-  <body <?php body_class($test); ?> >
+  <body <?php body_class(); ?> >
+    
+    <div id="cssmenu">
+      <?php wp_nav_menu(); ?>
+    </div>

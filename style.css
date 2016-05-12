@@ -1,4 +1,4 @@
-/*
+	/*
 Theme Name: Research
 Author: Crystark
 Author URI: www.facebook.com/vfxdirector
@@ -19,7 +19,7 @@ Version: 1.0
 	text-overflow: ellipsis;
 }
 
-.box .shit{
+.box .post-meta{
 	padding: 5px;
 }
 

@@ -6,7 +6,7 @@
     <?php if (has_post_thumbnail()) {
       ?>
       <div class="text-center">
-        <?php  the_post_thumbnail('medium', array('class' => 'feat'));
+        <?php  the_post_thumbnail('medium', array('class' => 'feature-image'));
         ?>
       </div>
       <?php
@@ -17,7 +17,7 @@
       <p>
         <?php
         $content = get_the_content();
-        echo wp_trim_words( $content , '50' );
+        echo wp_trim_words( $content , '30' );
         ?>
       </p>
     </div>

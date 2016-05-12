@@ -12,11 +12,12 @@ Version: 1.0
 .box {
 	max-width: 350px;
 	height: 400px;
-	border-radius: 5px;
-	margin:0 10px 10px 0;
+	border-radius: 9px;
+	margin:10px 10px 10px 10px;
 	background:#f1f1f1;
 	overflow: scroll;
 	text-overflow: ellipsis;
+	
 }
 
 .box .post-meta{
@@ -44,8 +45,9 @@ Version: 1.0
 }
 
 
-.feat{
-	width: 100%;
+.feature-image{
+	width: 350px;
+	height: 200px;
 
 }
 
@@ -56,14 +58,14 @@ Version: 1.0
 	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-	height: 100%;
+	min-height: 100%;
 }
 
 /*Make text center of background*/
 .center-title{
 	color: rgba(255, 255, 255, 0.53);
 	position: absolute;
-	top: calc(46% - 24px); //24px is font size of H1 I assume
+	top: calc(50% - 24px); //24px is font size of H1 I assume
 	left: 0;
 	text-align: center;
 	width: 100%;

@@ -50,29 +50,13 @@ Version: 1.0
 }
 
 
-
-div.thumbnail{
-	float: left;
-	clear: right;
-	margin-right: 100px;
-
-}
-div.posts{
-	clear: right;
-	position: relative;
-}
-
 /*Custom Image on jumbotron*/
 .jumbotron{
 	background-image: url(img/cover4.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-
 	height: 100%;
-
-
-
 }
 
 /*Make text center of background*/
@@ -104,11 +88,27 @@ div.posts{
 	text-align: center;
 	width: 100%;
 }
-.container.news-posts{
-	width: 85%;
+
+div.wrapper-content-post{
+	margin: 20px 20px 20px 20px;
 	min-height: 100%;
 	margin-bottom: -120px;
+	border: 1px solid black;
+	border-radius: 5px;
 }
+div.content-post{
+	padding: 10px;
+}
+
+div.wrapper-about{
+	margin-bottom: -120px;
+	min-height: 100%;
+}
+div.wrapper-portfolio{
+	margin-bottom: -120px;
+	min-height: 100%;
+}
+
 
 
 *{

@@ -3,25 +3,28 @@
 get_header();
 ?>
 
-<?php
-if(have_posts() ) :
-  the_post();
-  ?>
+<?php if(have_posts() ) : the_post(); ?>
+
+  <!-- Header posts image -->
   <div class="background-news" style="background-image: url('<?php echo wp_get_attachment_url( get_post_thumbnail_id( $post->ID) , 'max-control' ); ?>');">
     <div class="title-news">
       <h1><?php the_title(); ?></h1>
     </div>
   </div>
+  <!--  -->
 
-  <div class="container news-posts">
-    <div class="row">
-      <div class="col-lg-8">
+  <!-- The content post -->
+    <div class="wrapper-content-post">
+      <div class="content-post">
+        <h4><?php the_title() ?></h4>
         <p>
-          <?php the_content(); ?>
+          <?php the_content() ?>
         </p>
+        <hr>
+        <label><?php the_time() ?> | by <?php the_author(); ?></label>
       </div>
     </div>
-  </div>
+  <!--  -->
 
   <?php
   else :
@@ -33,7 +36,5 @@ if(have_posts() ) :
         </div>
       </div>
     </div>
-    <?php
-  endif;
-  get_footer();
-  ?>
+
+  <?php endif; get_footer();   ?>

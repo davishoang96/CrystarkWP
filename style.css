@@ -5,6 +5,11 @@ Author URI: www.facebook.com/vfxdirector
 Version: 1.0
 */
 
+#search{
+	list-style: none;
+	display: inline-block;
+}
+
 #wrapper{
 	margin: auto;
 }
@@ -79,7 +84,7 @@ Version: 1.0
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-attachment: fixed;
+
 	height: 50%;
 	padding-top: 10px;
 	position: relative;
@@ -106,6 +111,7 @@ Version: 1.0
   padding: 24px;
   position: relative;
   width: 80%;
+
 }
 .letter:before, .letter:after {
   content: "";
@@ -453,3 +459,6 @@ html, body{
 #wp-calendar tbody .pad { background: none; }
 #wp-calendar tfoot #next { font-size: 10px; text-transform: uppercase; text-align: right; }
 #wp-calendar tfoot #prev { font-size: 10px; text-transform: uppercase; padding-top: 10px; }
+#wp-calendar caption {
+text-align:center;
+}

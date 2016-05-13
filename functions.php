@@ -48,10 +48,10 @@ function widget_area(){
     'name' => 'Right Sidebar',
     'id' => 'right_sidebar',
     'description' => 'This is an area for widget on the right',
-    'before_widget' => '<li id="%1$s" class="widget %2$s">',
-    'after_widget' => "</li>n",
+    'before_widget' => '<li id="%1$s" class="widget %2$s" style="list-style: none">',
+    'after_widget' => "</li>",
     'before_title' => '<h2 class="widgettitle">',
-    'after_title' => "</h2>n"
+    'after_title' => "</h2>"
   ));
 }
 add_action('widgets_init','widget_area');

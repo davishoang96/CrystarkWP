@@ -19,15 +19,23 @@ function main_jquery(){
 }
 add_action('wp_enqueue_scripts', 'main_jquery');
 
-function stellar_parallax(){
-  wp_enqueue_script('stellar_parallax', get_template_directory_uri() . "/js/jquery.stellar.min.js", array('jquery'), '', true);
-}
-add_action('wp_enqueue_scripts', 'stellar_parallax');
 
+//Pull masonry bundle from the WP Core
 function masonry(){
   wp_register_script('jquery_masonry', get_template_directory_uri(). '/js/masonry.pkgd.min.js', array('jquery'), '2.0.110526', true );
 }
 add_action('wp_enqueue_scripts', 'masonry');
+
+function my_masonry_script(){
+  wp_enqueue_script('my_masonry_script', get_template_directory_uri(). '/js/my_masonry.js', array('jquery'), '', true);
+}
+add_action('wp_footer', "my_masonry_script");
+
+//Parallax Scroll Effect
+function stellar_parallax(){
+  wp_enqueue_script('stellar_parallax', get_template_directory_uri() . "/js/jquery.stellar.min.js", array('jquery'), '', true);
+}
+add_action('wp_enqueue_scripts', 'stellar_parallax');
 
 function activate_stellar(){
   wp_enqueue_script('activateStellar_js', get_template_directory_uri() . "/js/activate_stellar.js", array('jquery'), '', true);
@@ -35,10 +43,22 @@ function activate_stellar(){
 add_action("wp_footer", 'activate_stellar');
 add_theme_support( 'post-thumbnails' );
 
-function my_masonry_script(){
-  wp_enqueue_script('my_masonry_script', get_template_directory_uri(). '/js/my_masonry.js', array('jquery'), '', true);
+function widget_area(){
+  register_sidebar(array(
+    'name' => 'Right Sidebar',
+    'id' => 'right_sidebar',
+    'description' => 'This is an area for widget on the right',
+    'before_widget' => '<li id="%1$s" class="widget %2$s">',
+    'after_widget' => "</li>n",
+    'before_title' => '<h2 class="widgettitle">',
+    'after_title' => "</h2>n"
+  ));
 }
-add_action('wp_footer', "my_masonry_script");
+add_action('widgets_init','widget_area');
+
+
+
+
 
 
 

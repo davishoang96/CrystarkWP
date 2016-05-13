@@ -32,6 +32,7 @@ get_header();
       <div class="col-md-4">
         <div class="letter">
             <h4>Place some widgets here</h4>
+            <?php if(dynamic_sidebar('right_sidebar')) : else : endif; ?>
         </div>
       </div>
     </div>

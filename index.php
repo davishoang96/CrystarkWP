@@ -6,28 +6,22 @@
 	</div>
 </div>
 <div class="container-fluid">
-	<div id="wrapper">
-		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-			<?php get_template_part( 'content', get_post_format() ); ?>
-		<?php endwhile; endif; ?>
+	<div class="row">
+		<div class="col-md-8">
+			<div id="wrapper">
+				<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+					<?php get_template_part( 'content', get_post_format() ); ?>
+				<?php endwhile; endif; ?>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="letter">
+				<?php if(dynamic_sidebar('right_sidebar')) : else : endif; ?>
+			</div>
+		</div>
 	</div>
+</div>
 
 
-
-	</div>
-
-	<!-- <script>
-	jQuery(document).ready(function($){
-		$('#wrapper').masonry({
-			itemSelector: '.box',
-			gutterWidth: 0,
-			isAnimated: true,
-			isFitWidth: true, // I have spend 5 hours for this shit
-			isRTL: true,
-			isResizable: true,
-			resize: true
-		});
-	});
-	</script> -->
 
 	<?php get_footer(); ?>

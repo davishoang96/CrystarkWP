@@ -55,12 +55,4 @@ function widget_area(){
   ));
 }
 add_action('widgets_init','widget_area');
-
-
-
-
-
-
-
-
 ?>

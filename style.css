@@ -56,7 +56,7 @@ Version: 1.0
 
 .feature-image{
 	width: 350px;
-	height: 200px;
+	max-height: 200px;
 
 }
 

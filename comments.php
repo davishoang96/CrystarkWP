@@ -21,7 +21,7 @@ if ( post_password_required() ) { ?>
   <h3 id="comments"><?php comments_number('No Responses', 'One Response', '% Responses' );?> to “<?php the_title(); ?>”</h3>
 
   <ol>
-    <?php wp_list_comments('type=comment'); //this is the important part that ensures we call our custom comment layout defined above
+    <?php wp_list_comments('type=comment&callback=mytheme_comment'); //this is the important part that ensures we call our custom comment layout defined above
     ?>
   </ol>
   <div></div>

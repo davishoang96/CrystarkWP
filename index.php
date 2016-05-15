@@ -2,7 +2,7 @@
 
 <div class="jumbotron" data-stellar-background-ratio="0.5">
 	<div class="center-title">
-		<h1>RESEARCH 2.3</h1>
+		<h1>RESEARCH 2.4.1 "BETA VERSION"</h1>
 	</div>
 </div>
 <div class="container-fluid">

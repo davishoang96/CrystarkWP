@@ -1,15 +1,15 @@
 	/*
 Theme Name: Research
-Author: Crystark
+Author: Hoang Duc Viet
+ID : 1459057
 Author URI: www.facebook.com/vfxdirector
-Version: 1.0
+Version: 2.4
 */
 
 #search{
 	list-style: none;
 	display: inline-block;
 }
-
 
 #wrapper{
 	margin: auto;
@@ -76,6 +76,7 @@ Version: 1.0
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	min-height: 100%;
+
 }
 
 /*Make text center of background*/
@@ -469,4 +470,24 @@ html, body{
 #wp-calendar tfoot #prev { font-size: 10px; text-transform: uppercase; padding-top: 10px; }
 #wp-calendar caption {
 text-align:center;
+}
+
+.comment-class{
+	margin: 5px;
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid black;
+	background-color:  #f1f1f1;
+	margin-left: -40px;
+}
+.comment-class p{
+	color: red;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: monospace;
+}
+.comment-author-name{
+	color: red;
+	font-size: 15px;
+	font-weight: bolder;
 }

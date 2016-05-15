@@ -23,7 +23,7 @@ add_action('wp_enqueue_scripts', 'main_jquery');
 //Pull masonry bundle from the WP Core
 function masonry(){
   wp_enqueue_script( 'masonry' );
-  
+
 }
 add_action('wp_enqueue_scripts', 'masonry');
 
@@ -56,4 +56,32 @@ function widget_area(){
   ));
 }
 add_action('widgets_init','widget_area');
+
+function mytheme_comment($comment, $args, $depth) {
+   $GLOBALS['comment'] = $comment; ?>
+
+     <div class="comment-class">
+
+       <div id="comment-<?php comment_ID(); ?>">
+        <div class="comment-author vcard">
+
+
+
+           <?php printf(__('<cite class="comment-author-name">%s</cite> <span class="says">wrote:</span>'), get_comment_author_link()) ?>
+        </div>
+        <?php if ($comment->comment_approved == '0') : ?>
+           <em><?php _e('Your comment is awaiting moderation.') ?></em>
+           <br />
+        <?php endif; ?>
+
+        <div class="comment-meta commentmetadata"><a href="<?php echo htmlspecialchars( get_comment_link( $comment->comment_ID ) ) ?>"><?php printf(__('%1$s at %2$s'), get_comment_date(),  get_comment_time()) ?></a><?php edit_comment_link(__('(Edit)'),'  ','') ?></div>
+
+        <p class="comment-text">
+          <?php comment_text() ?>
+        </p>
+
+       </div>
+     </div>
+<?php
+}
 ?>

@@ -22,7 +22,8 @@ add_action('wp_enqueue_scripts', 'main_jquery');
 
 //Pull masonry bundle from the WP Core
 function masonry(){
-  wp_register_script('jquery_masonry', get_template_directory_uri(). '/js/masonry.pkgd.min.js', array('jquery'), '2.0.110526', true );
+  wp_enqueue_script( 'masonry' );
+  
 }
 add_action('wp_enqueue_scripts', 'masonry');
 

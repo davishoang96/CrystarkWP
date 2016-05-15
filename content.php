@@ -13,19 +13,21 @@
     }?>
     <div class="post-meta ">
       <h2><?php the_title(); ?></h2></a>
-      <label for=""><?php the_time() ?> | by <?php the_author() ?></label>
+      <label for=""><?php the_time() ?> | by <?php the_author(); ?> </label>
+      <h5 class="post-comment">
+        <?php $comment_count = get_comment_count($post->ID);
+        if ( comments_open() || $comment_count['approved'] > 0 ) : comments_number('0 comments','1 comment','% comments');
+        if ( !comments_open() ) : ?> (comments are closed)<?php endif; ?>
+        <?php endif; ?>
+      </h5>
       <p>
         <?php
         $content = get_the_content();
         echo wp_trim_words( $content , '30' );
         ?>
       </p>
-      <hr>
-      <label for="">
-        <?php $comment_count = get_comment_count($post->ID);
-        if ( comments_open() || $comment_count['approved'] > 0 ) : comments_number('0 comments','1 comment','% comments');
-        if ( !comments_open() ) : ?> (comments are closed)<?php endif; ?>
-      <?php endif; ?>
+
+
     </label>
 
   </div>

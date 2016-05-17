@@ -2,7 +2,8 @@
 Theme Name: Research
 Author: Hoang Duc Viet
 ID : 1459057
-Author URI: www.facebook.com/vfxdirector
+Author URI: https://www.facebook.com/vfxdirector
+Theme URI: https://github.com/davishoang96/wp_research
 Version: 2.4
 */
 
@@ -167,7 +168,7 @@ html, body{
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
 #cssmenu {
-	background: #f96e5b;
+	background: #444B54;
 	width: auto;
 }
 #cssmenu ul {

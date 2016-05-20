@@ -1,9 +1,11 @@
 <?php
+//Main Stylesheet
 function custom_css(){
   wp_enqueue_style('styles', get_stylesheet_uri());
 }
 add_action('wp_enqueue_scripts', 'custom_css');
 
+//Main bootstrap CSS
 function bootstrap_css(){
   wp_enqueue_style('bootstrap_css', get_template_directory_uri() . "/css/bootstrap.min.css");
 }
@@ -14,10 +16,12 @@ function bootstrap_js(){
 }
 add_action('wp_enqueue_scripts', 'bootstrap_js');
 
-function main_jquery(){
-  wp_enqueue_script('jquery', get_template_directory_uri() . "/js/jquery-2.2.3.min.js", array('jquery'), '' , true);
+
+//Google Maps
+function googlemaps(){
+  wp_enqueue_script('google_maps', get_template_directory_uri() . "/js/google_maps.js" , array('jquery'), '', true);
 }
-add_action('wp_enqueue_scripts', 'main_jquery');
+add_action('wp_footer', 'googlemaps');
 
 
 //Pull masonry bundle from the WP Core
@@ -38,6 +42,7 @@ function stellar_parallax(){
 }
 add_action('wp_enqueue_scripts', 'stellar_parallax');
 
+//Activate parallax plugin
 function activate_stellar(){
   wp_enqueue_script('activateStellar_js', get_template_directory_uri() . "/js/activate_stellar.js", array('jquery'), '', true);
 }
@@ -64,9 +69,6 @@ function mytheme_comment($comment, $args, $depth) {
 
        <div id="comment-<?php comment_ID(); ?>">
         <div class="comment-author vcard">
-
-
-
            <?php printf(__('<cite class="comment-author-name">%s</cite> <span class="says">wrote:</span>'), get_comment_author_link()) ?>
         </div>
         <?php if ($comment->comment_approved == '0') : ?>

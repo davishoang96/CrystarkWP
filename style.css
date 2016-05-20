@@ -1,11 +1,18 @@
-	/*
+/*
 Theme Name: Research
-Author: Hoang Duc Viet
-ID : 1459057
-Author URI: https://www.facebook.com/vfxdirector
 Theme URI: https://github.com/davishoang96/wp_research
+Description: My very first theme on Worpdress
 Version: 2.4
+Author: Hoang Duc Viet
+Author URI: https://www.facebook.com/vfxdirector
+Tags: itec, portfolio, resume, about, maps
 */
+
+#googleMap{
+	width: 100%;
+	height: 350px;
+	margin-top: 10px;
+}
 
 #search{
 	list-style: none;

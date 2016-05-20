@@ -1,7 +1,5 @@
 
-<?php
-get_header();
-?>
+<?php get_header(); ?>
 
 <?php if(have_posts() ) : the_post(); ?>
 
@@ -27,7 +25,7 @@ get_header();
             <label><?php the_time() ?> | by <?php the_author(); ?></label><br>
             <label for="">Number of comment : <?php $commentscount = get_comments_number(); echo $commentscount; ?></label>
             <hr>
-            
+
             <?php comments_template(); ?>
 
           </div>

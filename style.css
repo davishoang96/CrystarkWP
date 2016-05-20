@@ -7,6 +7,19 @@ Author: Hoang Duc Viet
 Author URI: https://www.facebook.com/vfxdirector
 Tags: itec, portfolio, resume, about, maps
 */
+.trumbotron{
+
+
+
+}
+.para{
+	position: absolute;
+	top: calc(50% - 24px); //24px is font size of H1 I assume
+	left: 0;
+	text-align: center;
+	width: 100%;
+	color: white;
+}
 
 #googleMap{
 	width: 100%;

@@ -1,4 +1,7 @@
 <?php
+//Bootstrap Walker
+require('wp_bootstrap_navwalker.php');
+
 //Main Stylesheet
 function custom_css(){
   wp_enqueue_style('styles', get_stylesheet_uri());
@@ -48,6 +51,11 @@ function activate_stellar(){
 }
 add_action("wp_footer", 'activate_stellar');
 add_theme_support( 'post-thumbnails' );
+
+function parallax_hand_code(){
+  wp_enqueue_script('parallax_hand_code', get_template_directory_uri() . "/js/parallax-handcode.js", array('jquery'), '', true);
+}
+add_action("wp_footer", 'parallax_hand_code');
 
 function widget_area(){
   register_sidebar(array(

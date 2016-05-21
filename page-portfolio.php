@@ -1,10 +1,12 @@
 <?php get_header() ?>
-
+<div class="trumbotron" data-stellar-background-ratio="0.5">
+  <div class="text">
+    <h5>This is a paragraph</h5>
+  </div>
+</div>
 <?php if(have_posts()) : while(have_posts()) : the_post();  ?>
 
-<div class="trumbotron">
-  <img id="image" src="cover.jpg" height="500px" width="100%" />
-</div>
+
 
 <div class="container">
   <div class="col-md-8">

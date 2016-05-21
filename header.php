@@ -15,23 +15,37 @@
       window.addEventListener("scroll" , parallax, false);
     </script> -->
 
-    <script type="text/javascript">
-    (function(){
-      var documentEl = $(document),
-          parallaxBg = $('div.trumbotron');
 
-
-      documentEl.on('scroll', function(){
-        var currScrollPos = documentEl.scrollTop();
-        parallaxBg.css('background-position', '0 ' + -currScrollPos/4 + 'px');
-      });
-    });
-
-    </script>
 
   </head>
   <body <?php body_class('moke'); ?> >
 
-    <div id="cssmenu">
-      <?php wp_nav_menu(); ?>
-    </div>
+    <div id="nav">
+     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+       <div class="container">
+         <!-- Brand and toggle get grouped for better mobile display -->
+         <div class="navbar-header">
+           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+             <span class="sr-only">Toggle navigation</span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+           </button>
+           <a class="navbar-brand" href="<?php bloginfo('url'); ?>"><img class="logo" src="<?php bloginfo('template_directory'); ?>/images/logo.png" alt="" /></a>
+         </div>
+
+
+         <?php
+         wp_nav_menu( array(
+                 'menu'              => 'primary',
+                 'depth'             => 2,
+                 'container'         => 'div',
+                 'container_class'   => 'navbar-collapse collapse',
+                 'menu_class'        => 'nav navbar-nav',
+                 'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
+                 'walker'            => new wp_bootstrap_navwalker())
+             );
+         ?>
+       </div><!-- /.container-fluid -->
+     </nav>
+ </div><!-- #nav -->

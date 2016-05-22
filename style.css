@@ -2,7 +2,7 @@
 Theme Name: Research
 Theme URI: https://github.com/davishoang96/wp_research
 Description: My very first theme on Worpdress
-Version: 2.4.3
+Version: 2.4.4
 Author: Hoang Duc Viet
 Author URI: https://www.facebook.com/vfxdirector
 Tags: itec, portfolio, resume, about, maps
@@ -23,8 +23,25 @@ body.admin-bar .navbar-fixed-top { top: 30px !important; }
 					position: relative;
 					margin-top: -45px !important;
 				}
+
 }
 
+/*Hide Searchbar when width = 767px*/
+@media screen and (max-width: 767px){
+	#searchform
+	{
+			display: none;
+	}
+}
+
+#searchform
+{
+    position: absolute;
+    width: 100%;
+    left: 30%;
+    text-align: center;
+    margin:10px auto;
+}
 
 
 #googleMap{
@@ -40,6 +57,9 @@ body.admin-bar .navbar-fixed-top { top: 30px !important; }
 
 #wrapper{
 	margin: auto;
+}
+a:visited{
+	color: red;
 }
 
 .box {
@@ -120,9 +140,20 @@ body.admin-bar .navbar-fixed-top { top: 30px !important; }
 	background-repeat: no-repeat;
 	background-size: cover;
 
-	height:100%;
-	margin-top: 50px;
+	height:50%;
+	margin-top: 49px;
 	position: relative;
+}
+@media screen and (max-width: 767px){
+	.background-news{
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+
+		height:50%;
+		margin-top: 44px;
+		position: relative;
+	}
 }
 
 /* Center Title */

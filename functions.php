@@ -99,3 +99,37 @@ function mytheme_comment($comment, $args, $depth) {
 <?php
 }
 ?>
+
+<?php
+function viet_color_picker($wp_customize){
+  $wp_customize->add_setting('viet_link_color', array(
+    'default' => 'red',
+    'transport' => 'refresh',
+  ));
+
+  $wp_customize->add_section('viet_standard_link_color', array(
+    'title' => __('Standard Colors', 'Research'),
+    'priority' => 30,
+  ));
+
+  $wp_customize->add_control(new WP_Customize_Color_Control($wp_customize, 'viet_link_color_control', array(
+    'labal' => __('Link Color', 'Research'),
+    'section' => 'viet_standard_link_color',
+    'settings' => 'viet_link_color',
+  )));
+
+}
+add_action('customize_register', 'viet_color_picker');
+ ?>
+
+<?php
+function viet_customize_css(){ ?>
+    <style media="screen">
+      a:link,
+      a:visited{
+        color: <?php echo get_theme_mod('viet_link_color'); ?>
+      }
+    </style>
+<?php }
+add_action('wp_head', 'viet_customize_css')
+?>

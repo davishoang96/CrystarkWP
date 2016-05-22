@@ -31,7 +31,7 @@
              <span class="icon-bar"></span>
              <span class="icon-bar"></span>
            </button>
-           <!-- <a class="navbar-brand" href="<?php bloginfo('url'); ?>"><img class="logo" src="<?php bloginfo('template_directory'); ?>/images/logo.png" alt="" /></a> -->
+           <a class="navbar-brand" href="<?php bloginfo('url'); ?>"><img class="logo" src="<?php bloginfo('template_directory'); ?>/img/logo.png" alt="" /></a> 
 
            <?php get_search_form() ?>
 

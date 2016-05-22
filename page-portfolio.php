@@ -1,7 +1,7 @@
 <?php get_header() ?>
-<div class="trumbotron" data-stellar-background-ratio="0.5">
-  <div class="text">
-    <h5>This is a paragraph</h5>
+<div class="background-news" style="background-image: url('<?php echo wp_get_attachment_url( get_post_thumbnail_id( $post->ID) , 'max-control' ); ?>');">
+  <div class="title-news">
+    <h1><?php the_title(); ?></h1>
   </div>
 </div>
 <?php if(have_posts()) : while(have_posts()) : the_post();  ?>

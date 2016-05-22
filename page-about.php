@@ -2,6 +2,12 @@
 
 <?php if(have_posts()) : while(have_posts()) : the_post();  ?>
 
+  <div class="background-news" style="background-image: url('<?php echo wp_get_attachment_url( get_post_thumbnail_id( $post->ID) , 'max-control' ); ?>');">
+    <div class="title-news">
+      <h1><?php the_title(); ?></h1>
+    </div>
+  </div>
+
 <div class="container">
   <div class="col-md-8">
     <div class="letter">

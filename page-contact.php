@@ -1,6 +1,6 @@
 <?php get_header() ?>
 
-<div class="container-fluid">
+<div class="container-fluid" style="pointer-events:none;">
   <div id="googleMap"></div>
 </div>
 

@@ -102,22 +102,35 @@ function mytheme_comment($comment, $args, $depth) {
 
 <?php
 function viet_color_picker($wp_customize){
+
+  //Change title Color
+  $wp_customize->add_setting('viet_title_color', array(
+    'default' => 'red',
+    'transport' => 'refresh',
+  ));
+
   $wp_customize->add_setting('viet_link_color', array(
     'default' => 'red',
     'transport' => 'refresh',
   ));
 
-  $wp_customize->add_section('viet_standard_link_color', array(
+  //Change Link color
+  $wp_customize->add_section('viet_standard_title_color', array(
     'title' => __('Standard Colors', 'Research'),
     'priority' => 30,
   ));
 
-  $wp_customize->add_control(new WP_Customize_Color_Control($wp_customize, 'viet_link_color_control', array(
-    'labal' => __('Link Color', 'Research'),
-    'section' => 'viet_standard_link_color',
-    'settings' => 'viet_link_color',
+  $wp_customize->add_control(new WP_Customize_Color_Control($wp_customize, 'viet_title_color_control', array(
+    'label' => __('Title Color', 'Research'),
+    'section' => 'viet_standard_title_color',
+    'settings' => 'viet_title_color',
   )));
 
+  $wp_customize->add_control(new WP_Customize_Color_Control($wp_customize, 'viet_link_color_control', array(
+    'label' => __('Link Color', 'Research'),
+    'section' => 'viet_standard_title_color',
+    'settings' => 'viet_link_color',
+  )));
 }
 add_action('customize_register', 'viet_color_picker');
  ?>
@@ -125,7 +138,10 @@ add_action('customize_register', 'viet_color_picker');
 <?php
 function viet_customize_css(){ ?>
     <style media="screen">
-      a:link,
+      .box h2{
+        color: <?php echo get_theme_mod('viet_title_color'); ?>
+      }
+      .a:link,
       a:visited{
         color: <?php echo get_theme_mod('viet_link_color'); ?>
       }

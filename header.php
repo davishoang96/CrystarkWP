@@ -21,7 +21,7 @@
   <body <?php body_class('moke'); ?> >
 
     <div id="nav">
-     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" data-offset-top="50">
        <div class="container">
          <!-- Brand and toggle get grouped for better mobile display -->
          <div class="navbar-header">

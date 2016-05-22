@@ -1,6 +1,10 @@
 <?php
+
 //Bootstrap Walker
 require('wp_bootstrap_navwalker.php');
+register_nav_menus( array(
+    'primary' => __( 'Primary Menu', 'THEMENAME' ),
+) );
 
 //Main Stylesheet
 function custom_css(){

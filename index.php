@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="jumbotron" data-stellar-background-ratio="0.2">
+<div class="jumbotron">
 	<div class="center-title">
 		<h1>RESEARCH 2.4.5 "BETA VERSION"</h1>
 	</div>

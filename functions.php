@@ -44,18 +44,6 @@ function my_masonry_script(){
 add_action('wp_footer', "my_masonry_script");
 
 //Parallax Scroll Effect
-function stellar_parallax(){
-  wp_enqueue_script('stellar_parallax', get_template_directory_uri() . "/js/jquery.stellar.min.js", array('jquery'), '', true);
-}
-add_action('wp_enqueue_scripts', 'stellar_parallax');
-
-//Activate parallax plugin
-function activate_stellar(){
-  wp_enqueue_script('activateStellar_js', get_template_directory_uri() . "/js/activate_stellar.js", array('jquery'), '', true);
-}
-add_action("wp_footer", 'activate_stellar');
-add_theme_support( 'post-thumbnails' );
-
 function parallax_hand_code(){
   wp_enqueue_script('parallax_hand_code', get_template_directory_uri() . "/js/parallax-handcode.js", array('jquery'), '', true);
 }

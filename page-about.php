@@ -24,5 +24,20 @@
   </div>
 </div>
 
+<script type="text/javascript">
+(function($){
+
+    var documentEl = $(document),
+        parallaxBg = $('div.background-news');
+
+
+    documentEl.on('scroll', function(){
+      var currScrollPos = documentEl.scrollTop();
+      parallaxBg.css('background-position','0 ' + -currScrollPos/4 + 'px');
+    });
+
+})(jQuery);
+</script>
+
 <?php endwhile; endif; ?>
 <?php get_footer() ?>

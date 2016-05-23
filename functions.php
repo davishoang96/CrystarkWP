@@ -1,5 +1,7 @@
 <?php
 
+add_theme_support( 'post-thumbnails' );
+
 //Bootstrap Walker
 require('wp_bootstrap_navwalker.php');
 register_nav_menus( array(

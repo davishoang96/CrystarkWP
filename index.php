@@ -2,7 +2,7 @@
 
 <div class="jumbotron">
 	<div class="center-title">
-		<h1>RESEARCH 2.4.5 "BETA VERSION"</h1>
+		<h1>RESEARCH v2.5.2</h1>
 	</div>
 </div>
 <div class="container-fluid">

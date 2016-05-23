@@ -8,7 +8,7 @@
 
 
 
-<div class="container">
+<div class="container-fluid">
   <div class="col-md-8">
     <div class="letter">
       <p>

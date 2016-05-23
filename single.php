@@ -33,8 +33,8 @@
 
       </div>
       <div class="col-md-4">
-        <div class="letter">
-            <h4>Place some widgets here</h4>
+        <div class="letter" id="the-sidebar">
+
             <?php if(dynamic_sidebar('right_sidebar')) : else : endif; ?>
         </div>
       </div>
@@ -54,7 +54,7 @@
     </div>
 
   <?php endif; get_footer();   ?>
-  
+
   <script type="text/javascript">
   (function($){
 

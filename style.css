@@ -2,7 +2,7 @@
 Theme Name: Research
 Theme URI: https://github.com/davishoang96/wp_research
 Description: My very first theme on Worpdress
-Version: 2.5.2
+Version: 2.5.4
 Author: Hoang Duc Viet
 Author URI: https://www.facebook.com/vfxdirector
 Tags: itec, portfolio, resume, about, maps
@@ -50,6 +50,7 @@ body.admin-bar .navbar-fixed-top { top: 30px !important; }
 	height: 550px;
 	margin-top: 10px;
 }
+
 
 #search{
 	list-style: none;
@@ -166,7 +167,6 @@ a:visited{
 }
 
 .background-news{
-
 	background-repeat: no-repeat;
 	background-repeat:no-repeat;
 -webkit-background-size:cover;
@@ -612,3 +612,26 @@ text-align:center;
 	margin-top: -12px;
 	right: 10px;
 }
+
+/*Post image align for mobile first*/
+#post img.alignnone{float:none; margin: 5px 05px 0; height: auto; width: auto;}
+@media screen and (max-width: 460px), screen and (max-width: 1200px){
+	#post img.alignnone{display:block; float:none; margin: 5px auto; height: 120px; width: 220px;}
+}
+
+#post img.alignleft{float:left; margin: 5px 10px 5px 0px; height: auto; width: auto;}
+@media screen and (max-width: 460px), screen and (max-width: 1200px){
+	#post img.alignleft{display:block; float:none; margin: 5px auto; height: 120px; width: 220px;}
+}
+
+
+#post img.alignright{display:block; float:none; margin: 5px auto; height: auto; width: auto;}
+@media screen and (max-width: 460px), screen and (max-width: 1200px){
+	#post img.alignright{display:block; float:none; margin: 5px auto; height: 120px; width: 220px;}
+}
+
+#post img.aligncenter{float:right; margin: 5px 05px 10px; height: auto; width: auto;}
+@@media screen and (max-width: 460px), screen and (max-width: 1200px){
+	#post img.aligncenter{display:block; float:none; margin: 5px auto; height: 120px; width: 220px;}
+}
+/*---------------------------------*/

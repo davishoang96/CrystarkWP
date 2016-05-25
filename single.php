@@ -16,7 +16,7 @@
       <div class="col-md-8">
 
         <div class="letter">
-          <div class="content-post">
+          <div id='post' class="content-post">
             <h4><?php the_title() ?></h4>
             <p>
               <?php the_content() ?>

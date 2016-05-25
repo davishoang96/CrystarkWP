@@ -2,7 +2,7 @@
 
 <div class="box">
 
-
+  
     <?php if (has_post_thumbnail()) {
       ?>
       <div class="text-center">

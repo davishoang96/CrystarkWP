@@ -168,18 +168,27 @@ a:visited{
 .background-news{
 
 	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
+	background-repeat:no-repeat;
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+background-size:cover;
+background-position:center;
 	height:50%;
 	margin-top: 49px;
 	position: relative;
 }
 @media screen and (max-width: 767px){
 	.background-news{
+		background-repeat:no-repeat;
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+background-size:cover;
+background-position:center;
 
-		background-repeat: no-repeat;
 		background-size: cover;
-
+		background-position: center;
 		height:50%;
 		margin-top: 44px;
 		position: relative;

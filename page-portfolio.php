@@ -4,6 +4,7 @@
     <h1><?php the_title(); ?></h1>
   </div>
 </div>
+
 <?php if(have_posts()) : while(have_posts()) : the_post();  ?>
 
 
@@ -29,19 +30,5 @@
 </script>
 
 <?php endwhile; endif; ?>
+
 <?php get_footer() ?>
-
-<script type="text/javascript">
-(function($){
-
-    var documentEl = $(document),
-        parallaxBg = $('div.background-news');
-
-
-    documentEl.on('scroll', function(){
-      var currScrollPos = documentEl.scrollTop();
-      parallaxBg.css('background-position','0 ' + -currScrollPos/4 + 'px');
-    });
-
-})(jQuery);
-</script>

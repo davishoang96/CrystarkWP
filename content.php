@@ -1,8 +1,16 @@
-
+<!-->
+Theme Name: Research
+Theme URI: https://github.com/davishoang96/wp_research
+Description: My very first theme on Worpdress
+Version: 2.5.4
+Author: Hoang Duc Viet
+Author URI: https://www.facebook.com/vfxdirector
+Tags: itec, portfolio, resume, about, maps
+<!-->
 
 <div class="box">
 
-  
+
     <?php if (has_post_thumbnail()) {
       ?>
       <div class="text-center">

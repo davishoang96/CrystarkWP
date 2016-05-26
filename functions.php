@@ -8,6 +8,11 @@ register_nav_menus( array(
     'primary' => __( 'Primary Menu', 'THEMENAME' ),
 ) );
 
+function animation(){
+  wp_enqueue_script('animation', get_template_directory_uri() . "/css/animations.css");
+}
+add_action('wp_enqueue_scripts', 'animation');
+
 //Main Stylesheet
 function custom_css(){
   wp_enqueue_style('styles', get_stylesheet_uri());
@@ -104,6 +109,13 @@ function viet_color_picker($wp_customize){
     'transport' => 'refresh',
   ));
 
+  $wp_customize->add_setting('viet_nav_color', array(
+    'default' => 'red',
+    'transport' => 'refresh',
+  ));
+
+
+
   //Change Link color
   $wp_customize->add_section('viet_standard_title_color', array(
     'title' => __('Standard Colors', 'Research'),
@@ -121,6 +133,13 @@ function viet_color_picker($wp_customize){
     'section' => 'viet_standard_title_color',
     'settings' => 'viet_link_color',
   )));
+
+  $wp_customize->add_control(new WP_Customize_Color_Control($wp_customize, 'viet_nav_color_control', array(
+    'label' => __('Navbar Color', 'Research'),
+    'section' => 'viet_standard_title_color',
+    'settings' => 'viet_nav_color',
+  )));
+
 }
 add_action('customize_register', 'viet_color_picker');
  ?>
@@ -131,9 +150,12 @@ function viet_customize_css(){ ?>
       .box h2{
         color: <?php echo get_theme_mod('viet_title_color'); ?>
       }
-      .a:link,
+      .a:link
       a:visited{
         color: <?php echo get_theme_mod('viet_link_color'); ?>
+      }
+      .navbar-inverse{
+        background_color: <?php echo get_theme_mod('viet_nav_color'); ?>
       }
     </style>
 <?php }

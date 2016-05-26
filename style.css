@@ -64,6 +64,11 @@ a:visited{
 	color: red;
 }
 
+.btn btn-success a{
+	color: white;
+}
+
+
 .box {
 	max-width: 350px;
 	height: 400px;

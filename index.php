@@ -3,6 +3,8 @@
 <div class="jumbotron">
 	<div class="center-title">
 		<h1>RESEARCH v2.5.2</h1>
+		<h4>A Theme by Hoang Viet</h4>
+		<a href="http://crystark.comli.com/wordpress/wp-login.php?action=register" id="btn-link"  class="btn btn-success" role="button">Sign Up</a>
 	</div>
 </div>
 

@@ -1,18 +1,10 @@
-<!-->
-Theme Name: Research
-Theme URI: https://github.com/davishoang96/wp_research
-Description: My very first theme on Worpdress
-Version: 2.5.4
-Author: Hoang Duc Viet
-Author URI: https://www.facebook.com/vfxdirector
-Tags: itec, portfolio, resume, about, maps
-<!-->
+
 
 
 <?php get_header() ?>
 <div class="background-news" style="background-image: url('<?php echo wp_get_attachment_url( get_post_thumbnail_id( $post->ID) , 'max-control' ); ?>');">
   <div class="title-news">
-    <h1><?php the_title(); ?></h1>
+    <h1 class="animated infinite jello"><?php the_title(); ?></h1>
   </div>
 </div>
 

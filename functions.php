@@ -25,6 +25,11 @@ function bootstrap_css(){
 }
 add_action('wp_enqueue_scripts', 'bootstrap_css');
 
+function animate(){
+  wp_enqueue_style('animate', get_template_directory_uri() . "/css/animate/animate.min.css");
+}
+add_action('wp_enqueue_scripts', 'animate');
+
 function bootstrap_js(){
   wp_enqueue_script('bootstrap_js', get_template_directory_uri() . "/js/bootstrap.min.js" , array('jquery'), '', true);
 }

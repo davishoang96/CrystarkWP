@@ -8,10 +8,10 @@ register_nav_menus( array(
     'primary' => __( 'Primary Menu', 'THEMENAME' ),
 ) );
 
-function animation(){
-  wp_enqueue_script('animation', get_template_directory_uri() . "/css/animations.css");
-}
-add_action('wp_enqueue_scripts', 'animation');
+// function animate_css(){
+//   wp_enqueue_script('animate_css', get_template_directory_uri() . "/css/animate/animate.min.css");
+// }
+// add_action('wp_enqueue_scripts', 'animate_css');
 
 //Main Stylesheet
 function custom_css(){

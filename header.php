@@ -6,6 +6,7 @@
     <meta name="viewport" content="initial-scale=1.0">
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <title><?php bloginfo('name'); ?></title>
+    <link rel="stylesheet" href="css/animate/animate.min.css">
     <script src="http://maps.googleapis.com/maps/api/js"></script>
     <?php wp_head(); ?>
 

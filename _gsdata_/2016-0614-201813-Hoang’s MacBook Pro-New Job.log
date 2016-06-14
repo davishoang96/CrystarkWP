@@ -1,0 +1,392 @@
+2016-06-14 20:18:16: -- Analysis Started by User
+2016-06-14 20:18:16: L: State file does not exist: /Applications/XAMPP/htdocs/wordpress/wp-content/themes/wp_research/_gsdata_/_file_state_v4._gs
+2016-06-14 20:18:17: R: State file does not exist: ftp://31.170.164.47/public_html/wp-content/themes/wp_research/_gsdata_/_file_state_v4._gs
+2016-06-14 20:18:44: /comments.php: Conflict: New files that differ
+2016-06-14 20:18:44: /content.php: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/animate-config.json: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/animate.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/animate.min.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/bower.json: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/gulpfile.js: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/LICENSE: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/package.json: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/README.md: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/_base.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/attention_seekers/bounce.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/attention_seekers/flash.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/attention_seekers/headShake.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/attention_seekers/jello.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/attention_seekers/pulse.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/attention_seekers/rubberBand.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/attention_seekers/shake.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/attention_seekers/swing.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/attention_seekers/tada.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/attention_seekers/wobble.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/bouncing_entrances/bounceIn.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/bouncing_entrances/bounceInDown.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/bouncing_entrances/bounceInLeft.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/bouncing_entrances/bounceInRight.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/bouncing_entrances/bounceInUp.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/bouncing_exits/bounceOut.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/bouncing_exits/bounceOutDown.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/bouncing_exits/bounceOutLeft.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/bouncing_exits/bounceOutRight.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/bouncing_exits/bounceOutUp.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/fading_entrances/fadeIn.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/fading_entrances/fadeInDown.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/fading_entrances/fadeInDownBig.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/fading_entrances/fadeInLeft.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/fading_entrances/fadeInLeftBig.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/fading_entrances/fadeInRight.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/fading_entrances/fadeInRightBig.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/fading_entrances/fadeInUp.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/fading_entrances/fadeInUpBig.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/fading_exits/fadeOut.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/fading_exits/fadeOutDown.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/fading_exits/fadeOutDownBig.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/fading_exits/fadeOutLeft.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/fading_exits/fadeOutLeftBig.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/fading_exits/fadeOutRight.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/fading_exits/fadeOutRightBig.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/fading_exits/fadeOutUp.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/fading_exits/fadeOutUpBig.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/flippers/flip.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/flippers/flipInX.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/flippers/flipInY.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/flippers/flipOutX.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/flippers/flipOutY.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/lightspeed/lightSpeedIn.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/lightspeed/lightSpeedOut.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/rotating_entrances/rotateIn.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/rotating_entrances/rotateInDownLeft.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/rotating_entrances/rotateInDownRight.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/rotating_entrances/rotateInUpLeft.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/rotating_entrances/rotateInUpRight.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/rotating_exits/rotateOut.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/rotating_exits/rotateOutDownLeft.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/rotating_exits/rotateOutDownRight.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/rotating_exits/rotateOutUpLeft.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/rotating_exits/rotateOutUpRight.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/sliding_entrances/slideInDown.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/sliding_entrances/slideInLeft.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/sliding_entrances/slideInRight.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/sliding_entrances/slideInUp.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/sliding_exits/slideOutDown.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/sliding_exits/slideOutLeft.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/sliding_exits/slideOutRight.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/sliding_exits/slideOutUp.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/specials/hinge.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/specials/rollIn.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/specials/rollOut.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/zooming_entrances/zoomIn.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/zooming_entrances/zoomInDown.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/zooming_entrances/zoomInLeft.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/zooming_entrances/zoomInRight.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/zooming_entrances/zoomInUp.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/zooming_exits/zoomOut.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/zooming_exits/zoomOutDown.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/zooming_exits/zoomOutLeft.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/zooming_exits/zoomOutRight.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animate/source/zooming_exits/zoomOutUp.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/animations.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/bootstrap-theme.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/bootstrap-theme.css.map: Conflict: New files that differ
+2016-06-14 20:18:44: /css/bootstrap-theme.min.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/bootstrap-theme.min.css.map: Conflict: New files that differ
+2016-06-14 20:18:44: /css/bootstrap.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/bootstrap.css.map: Conflict: New files that differ
+2016-06-14 20:18:44: /css/bootstrap.min.css: Conflict: New files that differ
+2016-06-14 20:18:44: /css/bootstrap.min.css.map: Conflict: New files that differ
+2016-06-14 20:18:44: /fonts/glyphicons-halflings-regular.eot: Conflict: New files that differ
+2016-06-14 20:18:44: /fonts/glyphicons-halflings-regular.svg: Conflict: New files that differ
+2016-06-14 20:18:44: /fonts/glyphicons-halflings-regular.ttf: Conflict: New files that differ
+2016-06-14 20:18:44: /fonts/glyphicons-halflings-regular.woff: Conflict: New files that differ
+2016-06-14 20:18:44: /fonts/glyphicons-halflings-regular.woff2: Conflict: New files that differ
+2016-06-14 20:18:44: /footer.php: Conflict: New files that differ
+2016-06-14 20:18:44: /functions.php: Conflict: New files that differ
+2016-06-14 20:18:44: /header.php: Conflict: New files that differ
+2016-06-14 20:18:44: /img/cover4.jpg: Conflict: New files that differ
+2016-06-14 20:18:44: /img/logo.png: Conflict: New files that differ
+2016-06-14 20:18:44: /index.php: Conflict: New files that differ
+2016-06-14 20:18:44: /js/activate_stellar.js: Conflict: New files that differ
+2016-06-14 20:18:44: /js/bootstrap.js: Conflict: New files that differ
+2016-06-14 20:18:44: /js/bootstrap.min.js: Conflict: New files that differ
+2016-06-14 20:18:44: /js/css3-animate-it.js: Conflict: New files that differ
+2016-06-14 20:18:44: /js/google_maps.js: Conflict: New files that differ
+2016-06-14 20:18:44: /js/jquery-2.2.3.min.js: Conflict: New files that differ
+2016-06-14 20:18:44: /js/masonry.pkgd.min.js: Conflict: New files that differ
+2016-06-14 20:18:44: /js/my_masonry.js: Conflict: New files that differ
+2016-06-14 20:18:44: /js/npm.js: Conflict: New files that differ
+2016-06-14 20:18:44: /js/parallax-handcode.js: Conflict: New files that differ
+2016-06-14 20:18:44: /page-about.php: Conflict: New files that differ
+2016-06-14 20:18:44: /page-contact.php: Conflict: New files that differ
+2016-06-14 20:18:44: /page-portfolio.php: Conflict: New files that differ
+2016-06-14 20:18:44: /screenshot.png: Conflict: New files that differ
+2016-06-14 20:18:44: /search.php: Conflict: New files that differ
+2016-06-14 20:18:44: /searchform.php: Conflict: New files that differ
+2016-06-14 20:18:44: /single.php: Conflict: New files that differ
+2016-06-14 20:18:44: /style.css: Conflict: New files that differ
+2016-06-14 20:18:44: /wp_bootstrap_navwalker.php: Conflict: New files that differ
+2016-06-14 20:18:44: Analyze has finished with Conflicts. Resolve Conflicts by selecting the correct sync direction, then click Sync
+2016-06-14 20:18:44: Changes: 126, Conflicts: 126, CopyTime: 0, CopyState: 0/20, Errors: 0, All: 153
+2016-06-14 20:18:44: -- Analysis Complete. Time 00:00:31, Speed: 4 files/s
+2016-06-14 20:18:44: 
+2016-06-14 20:19:07: New _gsdata_ folder(s) created, so rescan all job folders for their ghosts
+2016-06-14 20:19:07: == Sync Started by User
+2016-06-14 20:19:10: /comments.php: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /content.php: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/animate-config.json: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/animate.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/animate.min.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/bower.json: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/gulpfile.js: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/LICENSE: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/package.json: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/README.md: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/_base.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/attention_seekers/bounce.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/attention_seekers/flash.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/attention_seekers/headShake.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/attention_seekers/jello.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/attention_seekers/pulse.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/attention_seekers/rubberBand.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/attention_seekers/shake.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/attention_seekers/swing.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/attention_seekers/tada.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/attention_seekers/wobble.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/bouncing_entrances/bounceIn.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/bouncing_entrances/bounceInDown.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/bouncing_entrances/bounceInLeft.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/bouncing_entrances/bounceInRight.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/bouncing_entrances/bounceInUp.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/bouncing_exits/bounceOut.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/bouncing_exits/bounceOutDown.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/bouncing_exits/bounceOutLeft.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/bouncing_exits/bounceOutRight.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/bouncing_exits/bounceOutUp.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/fading_entrances/fadeIn.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/fading_entrances/fadeInDown.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/fading_entrances/fadeInDownBig.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/fading_entrances/fadeInLeft.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/fading_entrances/fadeInLeftBig.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/fading_entrances/fadeInRight.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/fading_entrances/fadeInRightBig.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/fading_entrances/fadeInUp.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/fading_entrances/fadeInUpBig.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/fading_exits/fadeOut.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/fading_exits/fadeOutDown.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/fading_exits/fadeOutDownBig.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/fading_exits/fadeOutLeft.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/fading_exits/fadeOutLeftBig.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/fading_exits/fadeOutRight.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/fading_exits/fadeOutRightBig.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/fading_exits/fadeOutUp.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/fading_exits/fadeOutUpBig.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/flippers/flip.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/flippers/flipInX.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/flippers/flipInY.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/flippers/flipOutX.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/flippers/flipOutY.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/lightspeed/lightSpeedIn.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/lightspeed/lightSpeedOut.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/rotating_entrances/rotateIn.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/rotating_entrances/rotateInDownLeft.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/rotating_entrances/rotateInDownRight.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/rotating_entrances/rotateInUpLeft.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/rotating_entrances/rotateInUpRight.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/rotating_exits/rotateOut.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/rotating_exits/rotateOutDownLeft.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/rotating_exits/rotateOutDownRight.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/rotating_exits/rotateOutUpLeft.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/rotating_exits/rotateOutUpRight.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/sliding_entrances/slideInDown.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/sliding_entrances/slideInLeft.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/sliding_entrances/slideInRight.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/sliding_entrances/slideInUp.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/sliding_exits/slideOutDown.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/sliding_exits/slideOutLeft.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/sliding_exits/slideOutRight.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/sliding_exits/slideOutUp.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/specials/hinge.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/specials/rollIn.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/specials/rollOut.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/zooming_entrances/zoomIn.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/zooming_entrances/zoomInDown.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/zooming_entrances/zoomInLeft.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/zooming_entrances/zoomInRight.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/zooming_entrances/zoomInUp.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/zooming_exits/zoomOut.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/zooming_exits/zoomOutDown.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/zooming_exits/zoomOutLeft.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/zooming_exits/zoomOutRight.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animate/source/zooming_exits/zoomOutUp.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/animations.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/bootstrap-theme.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/bootstrap-theme.css.map: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/bootstrap-theme.min.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/bootstrap-theme.min.css.map: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/bootstrap.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/bootstrap.css.map: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/bootstrap.min.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /css/bootstrap.min.css.map: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /fonts/glyphicons-halflings-regular.eot: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /fonts/glyphicons-halflings-regular.svg: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /fonts/glyphicons-halflings-regular.ttf: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /fonts/glyphicons-halflings-regular.woff: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /fonts/glyphicons-halflings-regular.woff2: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /footer.php: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /functions.php: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /header.php: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /img/cover4.jpg: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /img/logo.png: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /index.php: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /js/activate_stellar.js: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /js/bootstrap.js: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /js/bootstrap.min.js: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /js/css3-animate-it.js: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /js/google_maps.js: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /js/jquery-2.2.3.min.js: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /js/masonry.pkgd.min.js: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /js/my_masonry.js: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /js/npm.js: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /js/parallax-handcode.js: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /page-about.php: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /page-contact.php: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /page-portfolio.php: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /screenshot.png: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /search.php: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /searchform.php: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /single.php: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /style.css: unresolved conflict results in No Copy
+2016-06-14 20:19:10: /wp_bootstrap_navwalker.php: unresolved conflict results in No Copy
+2016-06-14 20:19:15: == Sync Complete. Time: 00:00:14, Speed: 7.3 KB/s, OK: 20, Errors: 0, Conflicts: 126
+2016-06-14 20:19:16: 
+2016-06-14 20:19:52: == Sync Started by User
+2016-06-14 20:19:55: /comments.php: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /content.php: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/animate-config.json: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/animate.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/animate.min.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/bower.json: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/gulpfile.js: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/LICENSE: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/package.json: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/README.md: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/_base.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/attention_seekers/bounce.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/attention_seekers/flash.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/attention_seekers/headShake.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/attention_seekers/jello.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/attention_seekers/pulse.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/attention_seekers/rubberBand.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/attention_seekers/shake.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/attention_seekers/swing.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/attention_seekers/tada.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/attention_seekers/wobble.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/bouncing_entrances/bounceIn.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/bouncing_entrances/bounceInDown.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/bouncing_entrances/bounceInLeft.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/bouncing_entrances/bounceInRight.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/bouncing_entrances/bounceInUp.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/bouncing_exits/bounceOut.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/bouncing_exits/bounceOutDown.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/bouncing_exits/bounceOutLeft.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/bouncing_exits/bounceOutRight.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/bouncing_exits/bounceOutUp.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/fading_entrances/fadeIn.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/fading_entrances/fadeInDown.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/fading_entrances/fadeInDownBig.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/fading_entrances/fadeInLeft.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/fading_entrances/fadeInLeftBig.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/fading_entrances/fadeInRight.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/fading_entrances/fadeInRightBig.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/fading_entrances/fadeInUp.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/fading_entrances/fadeInUpBig.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/fading_exits/fadeOut.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/fading_exits/fadeOutDown.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/fading_exits/fadeOutDownBig.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/fading_exits/fadeOutLeft.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/fading_exits/fadeOutLeftBig.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/fading_exits/fadeOutRight.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/fading_exits/fadeOutRightBig.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/fading_exits/fadeOutUp.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/fading_exits/fadeOutUpBig.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/flippers/flip.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/flippers/flipInX.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/flippers/flipInY.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/flippers/flipOutX.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/flippers/flipOutY.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/lightspeed/lightSpeedIn.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/lightspeed/lightSpeedOut.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/rotating_entrances/rotateIn.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/rotating_entrances/rotateInDownLeft.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/rotating_entrances/rotateInDownRight.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/rotating_entrances/rotateInUpLeft.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/rotating_entrances/rotateInUpRight.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/rotating_exits/rotateOut.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/rotating_exits/rotateOutDownLeft.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/rotating_exits/rotateOutDownRight.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/rotating_exits/rotateOutUpLeft.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/rotating_exits/rotateOutUpRight.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/sliding_entrances/slideInDown.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/sliding_entrances/slideInLeft.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/sliding_entrances/slideInRight.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/sliding_entrances/slideInUp.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/sliding_exits/slideOutDown.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/sliding_exits/slideOutLeft.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/sliding_exits/slideOutRight.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/sliding_exits/slideOutUp.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/specials/hinge.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/specials/rollIn.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/specials/rollOut.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/zooming_entrances/zoomIn.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/zooming_entrances/zoomInDown.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/zooming_entrances/zoomInLeft.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/zooming_entrances/zoomInRight.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/zooming_entrances/zoomInUp.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/zooming_exits/zoomOut.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/zooming_exits/zoomOutDown.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/zooming_exits/zoomOutLeft.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/zooming_exits/zoomOutRight.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animate/source/zooming_exits/zoomOutUp.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/animations.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/bootstrap-theme.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/bootstrap-theme.css.map: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/bootstrap-theme.min.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/bootstrap-theme.min.css.map: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/bootstrap.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/bootstrap.css.map: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/bootstrap.min.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /css/bootstrap.min.css.map: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /fonts/glyphicons-halflings-regular.eot: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /fonts/glyphicons-halflings-regular.svg: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /fonts/glyphicons-halflings-regular.ttf: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /fonts/glyphicons-halflings-regular.woff: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /fonts/glyphicons-halflings-regular.woff2: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /footer.php: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /functions.php: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /header.php: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /img/cover4.jpg: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /img/logo.png: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /index.php: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /js/activate_stellar.js: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /js/bootstrap.js: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /js/bootstrap.min.js: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /js/css3-animate-it.js: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /js/google_maps.js: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /js/jquery-2.2.3.min.js: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /js/masonry.pkgd.min.js: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /js/my_masonry.js: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /js/npm.js: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /js/parallax-handcode.js: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /page-about.php: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /page-contact.php: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /page-portfolio.php: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /screenshot.png: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /search.php: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /searchform.php: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /single.php: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /style.css: unresolved conflict results in No Copy
+2016-06-14 20:19:55: /wp_bootstrap_navwalker.php: unresolved conflict results in No Copy
+2016-06-14 20:19:58: == Sync Complete. Time: 00:00:13, Speed: 5.8 KB/s, OK: 0, Errors: 0, Conflicts: 126
+2016-06-14 20:19:59: 

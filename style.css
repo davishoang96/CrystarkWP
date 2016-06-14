@@ -34,6 +34,9 @@ body.admin-bar .navbar-fixed-top { top: 30px !important; }
 	}
 }
 
+.navbar navbar-inverse{
+	background-color: red !important;
+}
 
 #searchform
 {

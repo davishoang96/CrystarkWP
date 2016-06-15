@@ -2,8 +2,8 @@
 
 <div class="jumbotron">
 	<div class="center-title">
-		<h1 class="animated infinite bounce"><?php bloginfo('name' ) ?></h1>
-		<h4>A Theme by Hoang Viet</h4>
+		<h1 id="site-name" class="animated bounce"><?php bloginfo('name' ) ?></h1>
+		<h4 id="site-name">A Theme by Hoang Viet</h4>
 		<a href="" id="btn-link"  class="btn btn-success" role="button">Sign Up</a>
 	</div>
 </div>

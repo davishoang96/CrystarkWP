@@ -10,7 +10,7 @@
       isRTL: true,
       isResizable: true,
       resize: true,
-      transitionDuration: '0.4s'
+      transitionDuration: '0s'
     });
   });
 }(jQuery));

@@ -1,8 +1,8 @@
 /*
-Theme Name: Research
-Theme URI: https://github.com/davishoang96/wp_research
-Description: My very first theme on Worpdress
-Version: 2.5.4
+Theme Name: CrystarkWP
+Theme URI: https://github.com/davishoang96/CrystarkWP
+Description: My very first theme on Wordpress
+Version: 2.6.1
 Author: Hoang Duc Viet
 Author URI: https://www.facebook.com/vfxdirector
 Tags: itec, portfolio, resume, about, maps
@@ -113,6 +113,7 @@ a:visited{
 }
 .box .title-link{
 	padding: 5px;
+	font-family: 'Lobster', cursive;
 }
 .box .post-meta{
 	padding: 5px;
@@ -145,8 +146,8 @@ a:visited{
 	width: 350px;
 	height: 200px;
 	border-radius: 5px;
-
 }
+
 
 .post-comment {
 	color: green;
@@ -166,7 +167,7 @@ a:visited{
 
 /*Make text center of background*/
 .center-title{
-	color: rgba(255, 255, 255, 0.53);
+	color: rgba(255, 255, 255, 0.74);
 	position: absolute;
 	top: calc(50% - 24px); //24px is font size of H1 I assume
 	left: 0;
@@ -643,3 +644,15 @@ text-align:center;
 	#post img.aligncenter{display:block; float:none; margin: 5px auto; height: 120px; width: 220px;}
 }
 /*---------------------------------*/
+
+#site-name{
+	font-family: 'Pacifico', cursive;
+}
+
+.about-title{
+	font-family: 'Pacifico', cursive;
+}
+
+.portfolio-title{
+	font-family: 'Pacifico', cursive;
+}

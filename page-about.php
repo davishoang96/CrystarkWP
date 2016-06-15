@@ -4,7 +4,7 @@
 
   <div class="background-news" style="background-image: url('<?php echo wp_get_attachment_url( get_post_thumbnail_id( $post->ID) , 'max-control' ); ?>');">
     <div class="title-news animated infinite jello">
-      <h1><?php the_title(); ?></h1>
+      <h1 class="about-title"><?php the_title(); ?></h1>
     </div>
   </div>
 

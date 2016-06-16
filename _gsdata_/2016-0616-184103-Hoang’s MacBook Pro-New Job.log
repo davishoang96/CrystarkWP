@@ -1,0 +1,31 @@
+2016-06-16 18:41:06: -- Analysis Started by User
+2016-06-16 18:41:36: /css/animate/animate-config.json: Conflict: New files that differ
+2016-06-16 18:41:36: /css/animate/gulpfile.js: Conflict: New files that differ
+2016-06-16 18:41:36: /css/animate/LICENSE: Conflict: New files that differ
+2016-06-16 18:41:36: /css/animate/package.json: Conflict: New files that differ
+2016-06-16 18:41:36: /css/animate/README.md: Conflict: New files that differ
+2016-06-16 18:41:36: /css/animate/source/bouncing_exits/bounceOutDown.css: Conflict: New files that differ
+2016-06-16 18:41:36: /css/animate/source/bouncing_exits/bounceOutLeft.css: Conflict: New files that differ
+2016-06-16 18:41:36: /css/animate/source/bouncing_exits/bounceOutRight.css: Conflict: New files that differ
+2016-06-16 18:41:36: /css/animate/source/bouncing_exits/bounceOutUp.css: Conflict: New files that differ
+2016-06-16 18:41:36: /css/bootstrap.min.css.map: Conflict: New files that differ
+2016-06-16 18:41:36: Analyze has finished with Conflicts. Resolve Conflicts by selecting the correct sync direction, then click Sync
+2016-06-16 18:41:36: Changes: 12, Conflicts: 10, CopyTime: 0, CopyState: 0/0, Errors: 0, All: 152
+2016-06-16 18:41:36: Left to Right: Copy File: 2 
+2016-06-16 18:41:36: -- Analysis Complete. Time 00:00:33, Speed: 4 files/s
+2016-06-16 18:41:36: 
+2016-06-16 18:42:25: == Sync Started by User
+2016-06-16 18:42:33: Copy Over '/Applications/XAMPP/htdocs/wordpress/wp-content/themes/CrystarkWP/content.php' -> 'ftp://31.170.164.47/public_html/wp-content/themes/CrystarkWP/content.php'
+2016-06-16 18:42:33: /css/animate/animate-config.json: unresolved conflict results in No Copy
+2016-06-16 18:42:33: /css/animate/gulpfile.js: unresolved conflict results in No Copy
+2016-06-16 18:42:33: /css/animate/LICENSE: unresolved conflict results in No Copy
+2016-06-16 18:42:33: /css/animate/package.json: unresolved conflict results in No Copy
+2016-06-16 18:42:33: /css/animate/README.md: unresolved conflict results in No Copy
+2016-06-16 18:42:33: /css/animate/source/bouncing_exits/bounceOutDown.css: unresolved conflict results in No Copy
+2016-06-16 18:42:33: /css/animate/source/bouncing_exits/bounceOutLeft.css: unresolved conflict results in No Copy
+2016-06-16 18:42:33: /css/animate/source/bouncing_exits/bounceOutRight.css: unresolved conflict results in No Copy
+2016-06-16 18:42:33: /css/animate/source/bouncing_exits/bounceOutUp.css: unresolved conflict results in No Copy
+2016-06-16 18:42:33: /css/bootstrap.min.css.map: unresolved conflict results in No Copy
+2016-06-16 18:42:36: Copy Over '/Applications/XAMPP/htdocs/wordpress/wp-content/themes/CrystarkWP/style.css' -> 'ftp://31.170.164.47/public_html/wp-content/themes/CrystarkWP/style.css'
+2016-06-16 18:42:43: == Sync Complete. Time: 00:00:24, Speed: 1.1 KB/s, OK: 2, Errors: 0, Conflicts: 10
+2016-06-16 18:42:43: 

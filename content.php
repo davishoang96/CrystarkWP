@@ -10,6 +10,11 @@
         ?></a>
       </div>
       <?php
+    } else { ?>
+      <div class="text-center" id="feature-image-frame">
+        <a href="<?php the_permalink()?>"><img class="feature-image" src="<?php bloginfo('template_directory'); ?>/img/default_feature_image.png" /></a>
+      </div>
+      <?php
     }?>
 
     <div class="title-link">

@@ -5,9 +5,9 @@
 
     <?php if (has_post_thumbnail()) {
       ?>
-      <div class="text-center">
-        <?php  the_post_thumbnail('medium', array('class' => 'feature-image'));
-        ?>
+      <div class="text-center" id="feature-image-frame">
+        <a href="<?php the_permalink()?>"><?php  the_post_thumbnail('medium', array('class' => 'feature-image'));
+        ?></a>
       </div>
       <?php
     }?>

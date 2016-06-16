@@ -1,0 +1,15 @@
+2016-06-16 18:00:53: -- Analysis Started by User
+2016-06-16 18:00:53: Changes: 7, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0, All: 152
+2016-06-16 18:00:53: Left to Right: Copy File: 7 
+2016-06-16 18:00:53: -- Analysis Complete. Time 00:00:00, Speed: Many files/s
+2016-06-16 18:00:53: 
+2016-06-16 18:01:13: == Sync Started by User
+2016-06-16 18:01:13: Copy Over '/Applications/XAMPP/htdocs/wordpress/wp-content/themes/CrystarkWP/content.php' -> '/Volumes/DATA /CrystarkTEST/content.php'
+2016-06-16 18:01:13: Copy Over '/Applications/XAMPP/htdocs/wordpress/wp-content/themes/CrystarkWP/header.php' -> '/Volumes/DATA /CrystarkTEST/header.php'
+2016-06-16 18:01:13: Copy Over '/Applications/XAMPP/htdocs/wordpress/wp-content/themes/CrystarkWP/index.php' -> '/Volumes/DATA /CrystarkTEST/index.php'
+2016-06-16 18:01:13: Copy Over '/Applications/XAMPP/htdocs/wordpress/wp-content/themes/CrystarkWP/js/my_masonry.js' -> '/Volumes/DATA /CrystarkTEST/js/my_masonry.js'
+2016-06-16 18:01:13: Copy Over '/Applications/XAMPP/htdocs/wordpress/wp-content/themes/CrystarkWP/page-about.php' -> '/Volumes/DATA /CrystarkTEST/page-about.php'
+2016-06-16 18:01:13: Copy Over '/Applications/XAMPP/htdocs/wordpress/wp-content/themes/CrystarkWP/page-portfolio.php' -> '/Volumes/DATA /CrystarkTEST/page-portfolio.php'
+2016-06-16 18:01:13: Copy Over '/Applications/XAMPP/htdocs/wordpress/wp-content/themes/CrystarkWP/style.css' -> '/Volumes/DATA /CrystarkTEST/style.css'
+2016-06-16 18:01:13: == Sync Complete. Time: 00:00:00, Speed: 0.0/s, OK: 7, Errors: 0
+2016-06-16 18:01:13: 

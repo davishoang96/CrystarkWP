@@ -74,35 +74,28 @@ a:visited{
 
 .box {
 	max-width: 350px;
-	height: 400px;
+	height: 410px;
 	border-radius: 9px;
 	margin: 15px;
-
-	background: #eee;
-
-    box-shadow:
-        0 1px 1px rgba(0,0,0,0.15), /* The top layer shadow */
-        0 10px 0 -5px #eee, /* The second layer */
-        0 10px 1px -4px rgba(0,0,0,0.15), /* The second layer shadow */
-        0 20px 0 -10px #eee, /* The third layer */
-        0 20px 1px -9px rgba(0,0,0,0.15); /* The third layer shadow */
+	background-color: rgba(215, 215, 215, 0.85);
+	-webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
 }
 
 /*Responsive Adjustment for iphone 5*/
 @media screen and (max-width: 360px){
 	.box {
 		width: 100px;
-		height: 100px;
+		height: 110px;
 		border-radius: 9px;
 		margin: 10px;
-		background: #eee;
-		position: re
-	    box-shadow:
-	        0 1px 1px rgba(0,0,0,0.15), /* The top layer shadow */
-	        0 10px 0 -5px #eee, /* The second layer */
-	        0 10px 1px -4px rgba(0,0,0,0.15), /* The second layer shadow */
-	        0 20px 0 -10px #eee, /* The third layer */
-	        0 20px 1px -9px rgba(0,0,0,0.15); /* The third layer shadow */
+
+		position: relative;
+		background-color: rgba(215, 215, 215, 0.85);
+		-webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+		-moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+		box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
 	}
 	img {display: none;}
 	div.post-meta{display: none;}

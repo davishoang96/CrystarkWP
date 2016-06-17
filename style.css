@@ -136,9 +136,8 @@ a:visited{
 #feature-image-frame{
 	overflow: hidden;
 	position: relative;
-
-
 }
+
 .feature-image{
 	position: relative;
 	width: 350px;
@@ -228,8 +227,8 @@ background-position:center;
 .letter {
 
   margin: 26px auto 0;
-  max-width: 100%;
-  min-height: 100%;
+  max-width: 768px;
+
   padding: 24px;
   position: relative;
   width: 80%;
@@ -629,29 +628,47 @@ text-align:center;
 	right: 10px;
 }
 
+img {
+	-ms-interpolation-mode: bicubic;
+	border: 0;
+	height: auto;
+	max-width: 100%;
+	vertical-align: middle;
+}
+
 /*Post image align for mobile first*/
-#post img.alignnone{float:none; margin: 5px 05px 0; height: auto; width: auto;}
-@media screen and (max-width: 460px), screen and (max-width: 1200px){
-	#post img.alignnone{display:block; float:none; margin: 5px auto; height: 120px; width: 220px;}
-}
-
-#post img.alignleft{float:left; margin: 5px 10px 5px 0px; height: auto; width: auto;}
-@media screen and (max-width: 460px), screen and (max-width: 1200px){
-	#post img.alignleft{display:block; float:none; margin: 5px auto; height: 120px; width: 220px;}
-}
+/*#post img.alignnone{float:none; min-width: 100%;}
 
 
-#post img.alignright{display:block; float:none; margin: 5px auto; height: auto; width: auto;}
-@media screen and (max-width: 460px), screen and (max-width: 1200px){
-	#post img.alignright{display:block; float:none; margin: 5px auto; height: 120px; width: 220px;}
+#post img.alignleft{float:left; min-width: 100%;}
+
+
+
+#post img.alignright{display:block; float:right;}
+
+
+#post img.aligncenter{float:none; }*/
+img.alignleft {
+	float: left;
+	margin: 0.4em 1.6em 1.6em 0;
+}
+img.alignright {
+	float: right;
+	margin: 0.4em 0 1.6em 1.6em;
+}
+img.aligncenter {
+	vertical-align: middle;
+	clear: both;
+	float: none;
+	margin-top: 0.4em;
+	margin-bottom: 1.6em;
 }
 
-#post img.aligncenter{float:right; margin: 5px 05px 10px; height: auto; width: auto;}
-@@media screen and (max-width: 460px), screen and (max-width: 1200px){
-	#post img.aligncenter{display:block; float:none; margin: 5px auto; height: 120px; width: 220px;}
-}
+
+
 /*---------------------------------*/
 
+/* Google Font */
 #site-name{
 	font-family: 'Pacifico', cursive;
 }
@@ -663,3 +680,11 @@ text-align:center;
 .portfolio-title{
 	font-family: 'Pacifico', cursive;
 }
+
+#single-title{
+	font-family: 'Pacifico', cursive;
+}
+#the-search-query{
+	font-family: 'Pacifico', cursive;
+}
+/*---------------------------------*/

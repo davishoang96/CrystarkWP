@@ -25,7 +25,7 @@
   </head>
   <body <?php body_class('moke'); ?> >
 
-    <div id="nav">
+    <div id="nav" class="">
      <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
        <div class="container">
          <!-- Brand and toggle get grouped for better mobile display -->

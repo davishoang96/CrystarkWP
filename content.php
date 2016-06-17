@@ -22,7 +22,7 @@
     </div>
     <div class="post-meta">
 
-      <label for=""><?php the_time() ?> | by <?php the_author(); ?> </label>
+      <label for=""><?php the_time('F j, Y') ?> | by <?php the_author(); ?> </label>
       <h5 class="post-comment">
         <label for="">Comments : <?php $commentscount = get_comments_number(); echo $commentscount; ?></label>
       </h5>

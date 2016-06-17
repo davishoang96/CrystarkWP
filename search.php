@@ -4,9 +4,9 @@
 	<div class="row">
 		<div class="col-md-8">
 			<div class="text-center">
-				<h2>Search result for: <?php the_search_query() ?></h2>
+				<h2>Search result for: <span id="the-search-query"><?php the_search_query() ?></span></h2>
 			</div>
-			<div id="wrapper">
+			<div id="wrapper" class="animated fadeInUp">
 				<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 					<?php get_template_part( 'content', get_post_format() ); ?>
 				<?php endwhile; endif; ?>

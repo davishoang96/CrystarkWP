@@ -1,0 +1,11 @@
+2016-06-16 23:25:47: -- Analysis Started by User
+2016-06-16 23:26:21: Changes: 3, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0, All: 154
+2016-06-16 23:26:21: Left to Right: Copy File: 3 
+2016-06-16 23:26:21: -- Analysis Complete. Time 00:00:37, Speed: 4 files/s
+2016-06-16 23:26:21: 
+2016-06-16 23:26:33: == Sync Started by User
+2016-06-16 23:26:42: Copy Over '/Applications/XAMPP/htdocs/wordpress/wp-content/themes/CrystarkWP/content.php' -> 'ftp://31.170.164.47/public_html/wp-content/themes/CrystarkWP/content.php'
+2016-06-16 23:26:46: Copy New '/Applications/XAMPP/htdocs/wordpress/wp-content/themes/CrystarkWP/img/default_feature_image.png' -> 'ftp://31.170.164.47/public_html/wp-content/themes/CrystarkWP/img/default_feature_image.png'
+2016-06-16 23:26:50: Copy Over '/Applications/XAMPP/htdocs/wordpress/wp-content/themes/CrystarkWP/single.php' -> 'ftp://31.170.164.47/public_html/wp-content/themes/CrystarkWP/single.php'
+2016-06-16 23:26:55: == Sync Complete. Time: 00:00:27, Speed: 2.0 KB/s, OK: 3, Errors: 0
+2016-06-16 23:26:55: 
